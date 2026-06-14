@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claude Code//Lich Lam Viec//VI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Giờ làm việc
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VTIMEZONE
+TZID:Asia/Ho_Chi_Minh
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0700
+TZOFFSETTO:+0700
+TZNAME:+07
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:khoi-dong-3mit@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T083000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T090000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+SUMMARY:🌅 Khởi động + chọn 3 MIT
+DESCRIPTION:Check email/Slack lần 1 (trong 3 lần/ngày: 8:30\, 13:00\, 16:15).\nReview board\, chọn 3 MIT — việc quan trọng nhất hôm nay.\nMIT 1 sẽ làm ngay ở Deep work #1.
+END:VEVENT
+BEGIN:VEVENT
+UID:deep-work-1@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T090000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T103000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+SUMMARY:🎯 Deep work #1
+DESCRIPTION:90 phút — MIT số 1.\nTắt thông báo\, đóng Slack\, không check email.\nSau block: nghỉ 15' (10:30-10:45) — đứng dậy\, đi lại\, uống nước\, KHÔNG lướt MXH.
+END:VEVENT
+BEGIN:VEVENT
+UID:deep-work-2@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T104500
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T120000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+SUMMARY:🎯 Deep work #2
+DESCRIPTION:75 phút — MIT số 1 (tiếp) hoặc MIT số 2.\nSau block: nghỉ trưa 12:00-13:00\, ăn + chợp mắt 15-20' nếu được.
+END:VEVENT
+BEGIN:VEVENT
+UID:deep-work-3@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T130000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T143000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+SUMMARY:🎯 Deep work #3
+DESCRIPTION:90 phút — MIT số 2/3.\nCheck Slack/email lần 2 lúc 13:00 (5-10') rồi vào việc.\nSau block: nghỉ 15' (14:30-14:45).
+END:VEVENT
+BEGIN:VEVENT
+UID:deep-work-4@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T144500
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T161500
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+SUMMARY:🎯 Deep work #4
+DESCRIPTION:90 phút — MIT còn lại / task phụ.
+END:VEVENT
+BEGIN:VEVENT
+UID:wrap-up@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T161500
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T170000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+SUMMARY:📮 Wrap-up + plan ngày mai
+DESCRIPTION:Check email/Slack lần 3 — trả lời dồn.\nCode review\, cập nhật task board.\nChọn sẵn 3 MIT cho ngày mai → sáng mai vào việc ngay.\n17:15 đi tập — đồ tập đã mang theo!
+END:VEVENT
+END:VCALENDAR
