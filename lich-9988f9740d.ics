@@ -68,4 +68,166 @@ RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 SUMMARY:📮 Wrap-up + plan ngày mai
 DESCRIPTION:Check email/Slack lần 3 — trả lời dồn.\nCode review\, cập nhật task board.\nChọn sẵn 3 MIT cho ngày mai → sáng mai vào việc ngay.\n17:15 đi tập — đồ tập đã mang theo!
 END:VEVENT
+BEGIN:VEVENT
+UID:morning-wake@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T070000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T074500
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+SUMMARY:🌄 Dậy + vận động nhẹ
+DESCRIPTION:Dậy 7:00\, uống 1 ly nước\, vệ sinh cá nhân.\nGiãn cơ / mobility hoặc jog nhẹ 15-20' (buổi tối mới tập chính).\nKHÔNG cầm điện thoại lướt MXH ngay khi dậy.
+END:VEVENT
+BEGIN:VEVENT
+UID:morning-breakfast@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T074500
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T083000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+SUMMARY:🍳 Ăn sáng + chuẩn bị
+DESCRIPTION:Ăn sáng đủ chất\, chuẩn bị đồ đi làm.\nNếu hôm nay tập tối: nhớ mang theo đồ tập.
+END:VEVENT
+BEGIN:VEVENT
+UID:workout-gym@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T171500
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T183000
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR
+SUMMARY:🏋️ Gym (tập tạ)
+DESCRIPTION:Tập sức mạnh ~75'. Khởi động 10'\, tập chính\, giãn cơ cuối.\nXoay nhóm cơ: đẩy / kéo / chân theo buổi.
+END:VEVENT
+BEGIN:VEVENT
+UID:workout-swim@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260609T171500
+DTEND;TZID=Asia/Ho_Chi_Minh:20260609T183000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:🏊 Bơi
+DESCRIPTION:Bơi ~60-75'\, xen kẽ các kiểu để hồi phục sau ngày gym.
+END:VEVENT
+BEGIN:VEVENT
+UID:workout-run@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260611T171500
+DTEND;TZID=Asia/Ho_Chi_Minh:20260611T183000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🏃 Chạy bộ
+DESCRIPTION:Chạy ~60' (easy/tempo tùy sức). Theo dõi nhịp tim\, giãn cơ sau chạy.
+END:VEVENT
+BEGIN:VEVENT
+UID:evening-dinner@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T183000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T193000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+SUMMARY:🚿 Tắm + ăn tối
+DESCRIPTION:Tắm\, ăn tối\, nghỉ ngơi nạp lại năng lượng trước buổi học tối.
+END:VEVENT
+BEGIN:VEVENT
+UID:evening-english@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T193000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T201500
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+SUMMARY:🗣️ Tiếng Anh
+DESCRIPTION:45' mỗi ngày — ưu tiên cao.\nLuyện nghe/Duolingo 15' + nói/viết hoặc đọc 30'.\nDuy trì đều đặn quan trọng hơn học dồn.
+END:VEVENT
+BEGIN:VEVENT
+UID:evening-code@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T201500
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T214500
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR
+SUMMARY:💻 Học code (deep)
+DESCRIPTION:90' buổi học sâu (T2/T4/T6).\nDự án thực hành / khóa học — tắt thông báo\, dùng pomodoro.\nT3/T5 sau tiếng Anh để tự do / hồi phục.
+END:VEVENT
+BEGIN:VEVENT
+UID:winddown@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T223000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260608T235900
+RRULE:FREQ=DAILY
+SUMMARY:🌙 Thư giãn + chuẩn bị ngủ (ngủ 00:00)
+DESCRIPTION:Giảm ánh sáng xanh\, đọc sách / nghe nhạc nhẹ.\nNgủ lúc 00:00 để đủ 7 tiếng (dậy 7:00).
+END:VEVENT
+BEGIN:VEVENT
+UID:sat-wake@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260613T073000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260613T080000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🌄 Dậy + ăn sáng
+DESCRIPTION:Cuối tuần dậy 7:30\, ăn sáng nhẹ trước buổi vận động dài.
+END:VEVENT
+BEGIN:VEVENT
+UID:sat-cardio@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260613T080000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260613T093000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🏃 Cardio dài (chạy/bơi)
+DESCRIPTION:90' vận động dài — long run hoặc bơi dài để xây nền thể lực.
+END:VEVENT
+BEGIN:VEVENT
+UID:sat-recover@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260613T093000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260613T103000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🥗 Hồi phục + ăn
+DESCRIPTION:Giãn cơ\, tắm\, ăn bù năng lượng sau buổi cardio dài.
+END:VEVENT
+BEGIN:VEVENT
+UID:sat-code@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260613T103000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260613T123000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:💻 Dự án code cá nhân
+DESCRIPTION:2 tiếng làm dự án cá nhân — xây portfolio / thử công nghệ mới.
+END:VEVENT
+BEGIN:VEVENT
+UID:sat-english@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260613T193000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260613T201500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:🗣️ Tiếng Anh
+DESCRIPTION:Duy trì 45' — cuối tuần có thể xem phim/podcast tiếng Anh.
+END:VEVENT
+BEGIN:VEVENT
+UID:sun-wake@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260614T073000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260614T080000
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🌄 Dậy + ăn sáng
+DESCRIPTION:Dậy 7:30\, ăn sáng thong thả.
+END:VEVENT
+BEGIN:VEVENT
+UID:sun-active@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260614T080000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260614T090000
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🚴 Vận động ngoài trời nhẹ
+DESCRIPTION:Đạp xe / đi bộ / yoga ngoài trời — vận động nhẹ phục hồi.
+END:VEVENT
+BEGIN:VEVENT
+UID:sun-plan@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260614T160000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260614T170000
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🗓️ Review tuần + kế hoạch tuần tới
+DESCRIPTION:Nhìn lại tuần qua\, dọn task board.\nChọn mục tiêu + 3 MIT cho thứ Hai → vào tuần mới không bỡ ngỡ.
+END:VEVENT
+BEGIN:VEVENT
+UID:sun-english@lichlamviec.local
+DTSTAMP:20260606T120000Z
+DTSTART;TZID=Asia/Ho_Chi_Minh:20260614T193000
+DTEND;TZID=Asia/Ho_Chi_Minh:20260614T201500
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:🗣️ Tiếng Anh nhẹ
+DESCRIPTION:Ôn nhẹ 45' — nghe podcast / đọc truyện tiếng Anh.
+END:VEVENT
 END:VCALENDAR
