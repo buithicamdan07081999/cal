@@ -21,7 +21,18 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T083000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T090000
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 SUMMARY:🌅 Khởi động + chọn 3 MIT
-DESCRIPTION:Check email/Slack lần 1 (trong 3 lần/ngày: 8:30\, 13:00\, 16:15).\nReview board\, chọn 3 MIT — việc quan trọng nhất hôm nay.\nMIT 1 sẽ làm ngay ở Deep work #1.
+CATEGORIES:Làm việc
+DESCRIPTION:Check email/Slack lần 1 (trong 3 lần/ngày: 8:30\, 13:00\, 16:15).\n
+ \n📋 Quy trình:\n
+ • Review board\, dọn việc tồn\n
+ • Chọn 3 MIT — việc quan trọng nhất hôm nay\n
+ • MIT 1 sẽ làm ngay ở Deep work #1\n
+ \n✅ Checklist:\n[ ] Viết rõ 3 MIT\n[ ] Đóng email/Slack sau khi xong
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sắp tới giờ khởi động — chọn 3 MIT cho hôm nay
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:deep-work-1@lichlamviec.local
@@ -30,7 +41,17 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T090000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T103000
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 SUMMARY:🎯 Deep work #1
-DESCRIPTION:90 phút — MIT số 1.\nTắt thông báo\, đóng Slack\, không check email.\nSau block: nghỉ 15' (10:30-10:45) — đứng dậy\, đi lại\, uống nước\, KHÔNG lướt MXH.
+CATEGORIES:Làm việc
+DESCRIPTION:90 phút — MIT số 1.\n
+ \n⚙️ Quy tắc:\n
+ • Tắt thông báo\, đóng Slack\, không check email\n
+ • Một việc duy nhất\, không đa nhiệm\n
+ \n✅ Checklist:\n[ ] Điện thoại để xa / chế độ tập trung\n[ ] Sau block: nghỉ 15' (10:30–10:45) — đứng dậy\, đi lại\, uống nước\, KHÔNG lướt MXH
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Chuẩn bị Deep work #1 — tắt thông báo, mở MIT số 1
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:deep-work-2@lichlamviec.local
@@ -39,7 +60,14 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T104500
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T120000
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 SUMMARY:🎯 Deep work #2
-DESCRIPTION:75 phút — MIT số 1 (tiếp) hoặc MIT số 2.\nSau block: nghỉ trưa 12:00-13:00\, ăn + chợp mắt 15-20' nếu được.
+CATEGORIES:Làm việc
+DESCRIPTION:75 phút — MIT số 1 (tiếp) hoặc MIT số 2.\n
+ \n✅ Checklist:\n[ ] Giữ tập trung sâu\n[ ] Sau block: nghỉ trưa 12:00–13:00\, ăn + chợp mắt 15–20' nếu được
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Chuẩn bị Deep work #2
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:deep-work-3@lichlamviec.local
@@ -48,7 +76,16 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T130000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T143000
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 SUMMARY:🎯 Deep work #3
-DESCRIPTION:90 phút — MIT số 2/3.\nCheck Slack/email lần 2 lúc 13:00 (5-10') rồi vào việc.\nSau block: nghỉ 15' (14:30-14:45).
+CATEGORIES:Làm việc
+DESCRIPTION:90 phút — MIT số 2/3.\n
+ \n📋 Trình tự:\n
+ • Check Slack/email lần 2 lúc 13:00 (5–10') rồi vào việc\n
+ \n✅ Checklist:\n[ ] Đóng email sau 10'\n[ ] Sau block: nghỉ 15' (14:30–14:45)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Chuẩn bị Deep work #3 — check Slack/email 13:00 rồi vào việc
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:deep-work-4@lichlamviec.local
@@ -57,7 +94,14 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T144500
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T161500
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 SUMMARY:🎯 Deep work #4
-DESCRIPTION:90 phút — MIT còn lại / task phụ.
+CATEGORIES:Làm việc
+DESCRIPTION:90 phút — MIT còn lại / task phụ.\n
+ \n✅ Checklist:\n[ ] Hoàn tất MIT trong ngày\n[ ] Ghi lại việc chưa xong để wrap-up
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Chuẩn bị Deep work #4 — MIT còn lại
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wrap-up@lichlamviec.local
@@ -66,7 +110,17 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T161500
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T170000
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 SUMMARY:📮 Wrap-up + plan ngày mai
-DESCRIPTION:Check email/Slack lần 3 — trả lời dồn.\nCode review\, cập nhật task board.\nChọn sẵn 3 MIT cho ngày mai → sáng mai vào việc ngay.\n17:15 đi tập — đồ tập đã mang theo!
+CATEGORIES:Làm việc
+DESCRIPTION:Check email/Slack lần 3 — trả lời dồn.\n
+ \n📋 Việc cần làm:\n
+ • Code review\, cập nhật task board\n
+ • Chọn sẵn 3 MIT cho ngày mai → sáng mai vào việc ngay\n
+ \n✅ Checklist:\n[ ] Inbox về 0 (hoặc gần)\n[ ] 3 MIT ngày mai đã chọn\n[ ] 17:15 đi tập — đồ tập đã mang theo!
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sắp wrap-up — trả lời email dồn, chọn 3 MIT ngày mai
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:morning-wake@lichlamviec.local
@@ -75,7 +129,13 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T070000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T074500
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 SUMMARY:🌄 Dậy + vận động nhẹ
-DESCRIPTION:Dậy 7:00\, uống 1 ly nước\, vệ sinh cá nhân.\nGiãn cơ / mobility hoặc jog nhẹ 15-20' (buổi tối mới tập chính).\nKHÔNG cầm điện thoại lướt MXH ngay khi dậy.
+CATEGORIES:Sức khỏe
+DESCRIPTION:Dậy 7:00\, uống 1 ly nước\, vệ sinh. Giãn cơ/mobility hoặc jog nhẹ 15–20'. Không lướt MXH ngay khi dậy.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sắp tới giờ dậy + vận động nhẹ
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:morning-breakfast@lichlamviec.local
@@ -84,7 +144,13 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T074500
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T083000
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 SUMMARY:🍳 Ăn sáng + chuẩn bị
-DESCRIPTION:Ăn sáng đủ chất\, chuẩn bị đồ đi làm.\nNếu hôm nay tập tối: nhớ mang theo đồ tập.
+CATEGORIES:Nghỉ
+DESCRIPTION:Ăn sáng đủ chất\, chuẩn bị đồ đi làm. Nếu tối nay tập: nhớ mang đồ tập.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ăn sáng + chuẩn bị đi làm
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:workout-gym@lichlamviec.local
@@ -92,8 +158,19 @@ DTSTAMP:20260606T120000Z
 DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T171500
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T183000
 RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR
-SUMMARY:🏋️ Gym (tập tạ)
-DESCRIPTION:Tập sức mạnh ~75'. Khởi động 10'\, tập chính\, giãn cơ cuối.\nXoay nhóm cơ: đẩy / kéo / chân theo buổi.
+SUMMARY:🏋️ Gym (tập tạ) — 75'
+LOCATION:Phòng gym
+CATEGORIES:Sức khỏe
+DESCRIPTION:🔥 Cấu trúc:\n
+ • Khởi động 10'\n
+ • Buổi chính — nhóm cơ hôm nay: [Đẩy / Kéo / Chân]\n
+ • Giãn cơ 5'\n
+ \n💧 Mang nước + khăn. Ghi lại mức tạ để tăng tiến tuần sau.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Chuẩn bị đồ tập — sắp tới giờ đi gym
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:workout-swim@lichlamviec.local
@@ -101,8 +178,19 @@ DTSTAMP:20260606T120000Z
 DTSTART;TZID=Asia/Ho_Chi_Minh:20260609T171500
 DTEND;TZID=Asia/Ho_Chi_Minh:20260609T183000
 RRULE:FREQ=WEEKLY;BYDAY=TU
-SUMMARY:🏊 Bơi
-DESCRIPTION:Bơi ~60-75'\, xen kẽ các kiểu để hồi phục sau ngày gym.
+SUMMARY:🏊 Bơi — 60–75'
+LOCATION:Hồ bơi
+CATEGORIES:Sức khỏe
+DESCRIPTION:Bơi xen kẽ các kiểu để hồi phục sau ngày gym.\n
+ \n• Khởi động nhẹ 5'\n
+ • Bơi chính (chia hiệp)\n
+ • Thả lỏng cuối\n
+ \n💧 Mang kính bơi\, mũ\, khăn.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Chuẩn bị đồ bơi — sắp tới giờ ra hồ
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:workout-run@lichlamviec.local
@@ -110,8 +198,18 @@ DTSTAMP:20260606T120000Z
 DTSTART;TZID=Asia/Ho_Chi_Minh:20260611T171500
 DTEND;TZID=Asia/Ho_Chi_Minh:20260611T183000
 RRULE:FREQ=WEEKLY;BYDAY=TH
-SUMMARY:🏃 Chạy bộ
-DESCRIPTION:Chạy ~60' (easy/tempo tùy sức). Theo dõi nhịp tim\, giãn cơ sau chạy.
+SUMMARY:🏃 Chạy bộ — 60'
+CATEGORIES:Sức khỏe
+DESCRIPTION:Chạy ~60' (easy/tempo tùy sức).\n
+ \n• Khởi động + chạy bước nhỏ 5'\n
+ • Chạy chính — theo dõi nhịp tim\n
+ • Giãn cơ sau chạy\n
+ \n👟 Mang giày chạy phù hợp\, nước.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Chuẩn bị chạy bộ — thay đồ, mang nước
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:evening-dinner@lichlamviec.local
@@ -120,7 +218,13 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T183000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T193000
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 SUMMARY:🚿 Tắm + ăn tối
-DESCRIPTION:Tắm\, ăn tối\, nghỉ ngơi nạp lại năng lượng trước buổi học tối.
+CATEGORIES:Nghỉ
+DESCRIPTION:Tắm\, ăn tối\, nghỉ nạp lại năng lượng trước buổi học tối.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tắm + ăn tối
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:evening-english@lichlamviec.local
@@ -128,8 +232,19 @@ DTSTAMP:20260606T120000Z
 DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T193000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T201500
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
-SUMMARY:🗣️ Tiếng Anh
-DESCRIPTION:45' mỗi ngày — ưu tiên cao.\nLuyện nghe/Duolingo 15' + nói/viết hoặc đọc 30'.\nDuy trì đều đặn quan trọng hơn học dồn.
+SUMMARY:🗣️ Tiếng Anh — 45'
+CATEGORIES:Học tập
+DESCRIPTION:Ưu tiên cao — duy trì MỖI NGÀY.\n
+ \n⏱️ Cấu trúc:\n
+ • 15' Nghe (podcast/Duolingo)\n
+ • 15' Nói/đọc to (shadowing)\n
+ • 15' Viết/ôn từ vựng\n
+ \n✅ Checklist:\n[ ] Học từ mới ghi vào sổ\n[ ] Đều đặn quan trọng hơn học dồn
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sắp tới giờ học tiếng Anh
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:evening-code@lichlamviec.local
@@ -137,8 +252,25 @@ DTSTAMP:20260606T120000Z
 DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T201500
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T214500
 RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR
-SUMMARY:💻 Học code (deep)
-DESCRIPTION:90' buổi học sâu (T2/T4/T6).\nDự án thực hành / khóa học — tắt thông báo\, dùng pomodoro.\nT3/T5 sau tiếng Anh để tự do / hồi phục.
+SUMMARY:💻 Học code (deep) — 90'
+LOCATION:Bàn làm việc / phòng yên tĩnh
+CATEGORIES:Học tập
+DESCRIPTION:🎯 Mục tiêu buổi: chọn 1 chủ đề/tính năng cụ thể.\n
+ \n⏱️ Cấu trúc (Pomodoro):\n
+ • 20:15–20:20 Ôn buổi trước + đặt mục tiêu\n
+ • 20:20–20:45 Pomodoro 1 (code)\n
+ • 20:45–20:50 Nghỉ\n
+ • 20:50–21:15 Pomodoro 2 (code)\n
+ • 21:15–21:20 Nghỉ\n
+ • 21:20–21:40 Pomodoro 3 (hoàn thiện + commit)\n
+ • 21:40–21:45 Nhật ký học: học gì / vướng gì\n
+ \n✅ Checklist:\n[ ] Tắt thông báo\n[ ] 1 commit hoặc ghi chú kết quả\n[ ] Note câu hỏi tồn cho buổi sau\n
+ \n📌 Chất lượng > số dòng code. T3/T5 nghỉ code để hồi phục.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sắp tới giờ học code — mở dự án, tắt thông báo
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:winddown@lichlamviec.local
@@ -147,7 +279,13 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260608T223000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260608T235900
 RRULE:FREQ=DAILY
 SUMMARY:🌙 Thư giãn + chuẩn bị ngủ (ngủ 00:00)
-DESCRIPTION:Giảm ánh sáng xanh\, đọc sách / nghe nhạc nhẹ.\nNgủ lúc 00:00 để đủ 7 tiếng (dậy 7:00).
+CATEGORIES:Nghỉ
+DESCRIPTION:Giảm ánh sáng xanh\, đọc sách / nghe nhạc nhẹ. Ngủ lúc 00:00 để đủ 7 tiếng (dậy 7:00).
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bắt đầu wind-down — chuẩn bị ngủ lúc 00:00
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sat-wake@lichlamviec.local
@@ -156,7 +294,13 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260613T073000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260613T080000
 RRULE:FREQ=WEEKLY;BYDAY=SA
 SUMMARY:🌄 Dậy + ăn sáng
+CATEGORIES:Nghỉ
 DESCRIPTION:Cuối tuần dậy 7:30\, ăn sáng nhẹ trước buổi vận động dài.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dậy + ăn sáng (cuối tuần)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sat-cardio@lichlamviec.local
@@ -164,8 +308,18 @@ DTSTAMP:20260606T120000Z
 DTSTART;TZID=Asia/Ho_Chi_Minh:20260613T080000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260613T093000
 RRULE:FREQ=WEEKLY;BYDAY=SA
-SUMMARY:🏃 Cardio dài (chạy/bơi)
-DESCRIPTION:90' vận động dài — long run hoặc bơi dài để xây nền thể lực.
+SUMMARY:🏃 Cardio dài (chạy/bơi) — 90'
+CATEGORIES:Sức khỏe
+DESCRIPTION:90' vận động dài — long run hoặc bơi dài để xây nền thể lực.\n
+ \n• Khởi động kỹ 10'\n
+ • Giữ nhịp ổn định\, không gắng quá sức\n
+ • Giãn cơ + bù nước/điện giải sau buổi\n
+ \n💧 Mang đủ nước cho buổi dài.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Chuẩn bị cardio dài — mang nước, đồ phù hợp
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sat-recover@lichlamviec.local
@@ -174,7 +328,13 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260613T093000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260613T103000
 RRULE:FREQ=WEEKLY;BYDAY=SA
 SUMMARY:🥗 Hồi phục + ăn
+CATEGORIES:Nghỉ
 DESCRIPTION:Giãn cơ\, tắm\, ăn bù năng lượng sau buổi cardio dài.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hồi phục + ăn sau buổi tập
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sat-code@lichlamviec.local
@@ -182,8 +342,16 @@ DTSTAMP:20260606T120000Z
 DTSTART;TZID=Asia/Ho_Chi_Minh:20260613T103000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260613T123000
 RRULE:FREQ=WEEKLY;BYDAY=SA
-SUMMARY:💻 Dự án code cá nhân
-DESCRIPTION:2 tiếng làm dự án cá nhân — xây portfolio / thử công nghệ mới.
+SUMMARY:💻 Dự án code cá nhân — 2h
+CATEGORIES:Học tập
+DESCRIPTION:2 tiếng làm dự án cá nhân — xây portfolio / thử công nghệ mới.\n
+ \n🎯 Đặt 1 mục tiêu rõ cho buổi.\n
+ \n✅ Checklist:\n[ ] Commit / ghi lại tiến độ\n[ ] Ghi ý tưởng cho buổi sau
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sắp tới giờ làm dự án code cá nhân
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sat-english@lichlamviec.local
@@ -191,8 +359,14 @@ DTSTAMP:20260606T120000Z
 DTSTART;TZID=Asia/Ho_Chi_Minh:20260613T193000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260613T201500
 RRULE:FREQ=WEEKLY;BYDAY=SA
-SUMMARY:🗣️ Tiếng Anh
-DESCRIPTION:Duy trì 45' — cuối tuần có thể xem phim/podcast tiếng Anh.
+SUMMARY:🗣️ Tiếng Anh — 45'
+CATEGORIES:Học tập
+DESCRIPTION:Duy trì 45' — cuối tuần có thể xem phim/podcast tiếng Anh (nghe thụ động + ghi từ mới).
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sắp tới giờ học tiếng Anh
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sun-wake@lichlamviec.local
@@ -201,7 +375,13 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260614T073000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260614T080000
 RRULE:FREQ=WEEKLY;BYDAY=SU
 SUMMARY:🌄 Dậy + ăn sáng
+CATEGORIES:Nghỉ
 DESCRIPTION:Dậy 7:30\, ăn sáng thong thả.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dậy + ăn sáng (Chủ nhật)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sun-active@lichlamviec.local
@@ -210,7 +390,13 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260614T080000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260614T090000
 RRULE:FREQ=WEEKLY;BYDAY=SU
 SUMMARY:🚴 Vận động ngoài trời nhẹ
+CATEGORIES:Sức khỏe
 DESCRIPTION:Đạp xe / đi bộ / yoga ngoài trời — vận động nhẹ phục hồi.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sắp tới giờ vận động ngoài trời nhẹ
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sun-plan@lichlamviec.local
@@ -219,7 +405,18 @@ DTSTART;TZID=Asia/Ho_Chi_Minh:20260614T160000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260614T170000
 RRULE:FREQ=WEEKLY;BYDAY=SU
 SUMMARY:🗓️ Review tuần + kế hoạch tuần tới
-DESCRIPTION:Nhìn lại tuần qua\, dọn task board.\nChọn mục tiêu + 3 MIT cho thứ Hai → vào tuần mới không bỡ ngỡ.
+CATEGORIES:Làm việc
+DESCRIPTION:Nhìn lại tuần qua\, dọn task board.\n
+ \n📋 Việc cần làm:\n
+ • Đánh giá: việc nào xong / chưa\, vì sao\n
+ • Dọn board\, lưu trữ việc đã đóng\n
+ • Chọn mục tiêu + 3 MIT cho thứ Hai\n
+ \n✅ Checklist:\n[ ] 3 MIT thứ Hai đã chọn\n[ ] Lịch tuần tới không xung đột
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sắp tới giờ review tuần + lên kế hoạch tuần mới
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sun-english@lichlamviec.local
@@ -227,7 +424,13 @@ DTSTAMP:20260606T120000Z
 DTSTART;TZID=Asia/Ho_Chi_Minh:20260614T193000
 DTEND;TZID=Asia/Ho_Chi_Minh:20260614T201500
 RRULE:FREQ=WEEKLY;BYDAY=SU
-SUMMARY:🗣️ Tiếng Anh nhẹ
-DESCRIPTION:Ôn nhẹ 45' — nghe podcast / đọc truyện tiếng Anh.
+SUMMARY:🗣️ Tiếng Anh nhẹ — 45'
+CATEGORIES:Học tập
+DESCRIPTION:Ôn nhẹ 45' — nghe podcast / đọc truyện tiếng Anh\, không áp lực.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sắp tới giờ ôn tiếng Anh nhẹ
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 END:VCALENDAR
